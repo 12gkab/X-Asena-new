@@ -32,7 +32,7 @@ module.exports = {
   AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || false,
   PROCESSNAME: process.env.PROCESSNAME || "x-asena",
   WORK_TYPE: process.env.WORK_TYPE || "Public",
-  SESSION_URL: process.env.SESSION_URL || "Raganork~4d4143bd5ccb7b02da0ba21ec3dd562e:6a637557587461527362453d",
+  SESSION_URL: process.env.SESSION_URL || "",
   DELETED_LOG: toBool(process.env.DELETED_LOG) || false,
   DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
   REMOVEBG: process.env.REMOVEBG || false,
